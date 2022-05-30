@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { CoinList } from "../config/api";
 import { CryptoState } from "../CryptoContext";
 import { useNavigate } from "react-router-dom";
 import {
