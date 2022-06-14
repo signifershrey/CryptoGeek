@@ -27,7 +27,7 @@ const Signup = ({ handleClose }) => {
         email,
         password
       );
-      console.log(result);
+      // console.log(result);
       setAlert({
         open: true,
         message: `Sign Up Successful. Welcome ${result.user.email}`,

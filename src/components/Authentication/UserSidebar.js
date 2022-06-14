@@ -72,7 +72,7 @@ export default function UserSidebar() {
   });
   const { user, setAlert, watchlist, coins, symbol } = CryptoState();
 
-  console.log(watchlist, coins);
+  // console.log(watchlist, coins);
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (
@@ -159,7 +159,7 @@ export default function UserSidebar() {
                   {user.displayName || user.email}
                 </span>
                 <div className={classes.watchlist}>
-                  <span style={{ fontSize: 15, textShadow: "0 0 5px black" }}>
+                  <span style={{ fontSize: 20, fontWeight:600}}>
                     Watchlist
                   </span>
                   {coins.map((coin) => {
